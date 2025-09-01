@@ -1,0 +1,87 @@
+/** style.css */
+
+/** Reset Simples */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/** Hero Section */
+.hero {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: white;
+    color: #0072ff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Sessões Gerais */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.features li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/** Call to Action */
+.cta {
+    background: #0072ff;
+    color: white;
+    padding: 80px 20px;
+}
+
+.cta button {
+    background: white;
+    color: #0072ff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta button:hover {
+    background: #f0f0f0;
+
+}
+
+/* Rodapé */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
