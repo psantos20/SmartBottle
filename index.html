@@ -9,44 +9,74 @@
 </head>
 
 <body>
-    <!--Hero Section-->
-    <header class="hero">
-        <h1>SmartBottle</h1>
-        <p>A garrafa inteligente que cuida da sua hidratação.</p>
-        <button>Compre Agora</button>
-
-        <!--Sobre o Produto-->
-        <section class="about">
-            <h2> O que é a SmartBottle?</h2>
-            <p>
-                Uma garrafa inovadora que monitora sua hidratação, envia lembretes e ajuda você a beber agua no momento
-                certo.
-            </p>
-        </section>
-
-        <!--Recursos-->
-        <section class="features">
-            <h2>Por que escolher a SmartBottle?</h2>
-            <ul>
-                <li>Monitora sua hirdratação diária</li>
-                <li>Notificações inteligentes</li>
-                <li>Sustentável e recarregável</li>
-                <li>Design moderno</li>
+    <!--Header Section-->
+    <header>
+        <nav class="navbar container">
+            <h1 class="logo">SmartBottle</h1>
+            <ul class="menu">
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-        </section>
-
-        <!--Call to Action-->
-        <section class="cta">
-            <h2>Pronto para trasnformar sua rotina?</h2>
-            <button>Garanta a Sua!</button>
-        </section>
-
-        <!--Rodapé-->
-        <footer>
-            <p>© 2025 SmartBottle. Todos os direitos reservados.</p>
-        </footer>
-
+            <a href="#compra" class="btn">Comprar Agora</a>
+        </nav>
     </header>
+
+    <!--Hero Section-->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Beba Água de Forma Inteligente</h1>
+            <p>A SmartBottle monitora sua hidratação e avisa a hora certa de beber água.</p>
+            <a href="#" class="btn">Garanta a sua</a>
+        </div>
+    </section>
+
+
+    <!--Features-->
+    <section id="features" class="features container">
+        <h3>Recursos Incríveis</h3>
+        <div class="grid">
+            <div class="card">
+                <h4>Monitoramento em Tempo Real</h4>
+                <p>Acompanha sua ingestão de água ao longo do dia.</p>
+            </div>
+            <div class="card">
+                <h4>App Integrado</h4>
+                <p>Controle tudo pelo aplicativo no seu celular.</p>
+            </div>
+            <div class="card">
+                <h4>Design Moderno</h4>
+                <p>Estilo elegante e tecnológico para seu dia a dia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre o Produto-->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h3>Sobre a SmartBottle</h3>
+            <p>
+                Desenvolvida com tecnologia de ponta, a SmartBottle ajuda você a manter hábitos saudáveis
+                de forma prática e moderna. Ideal para quem busca bem-estar e qualidade de vida.
+            </p>
+        </div>
+    </section>
+
+    <!--Call to Action-->
+    <section id="compra" class="cta">
+        <div class="container">
+            <h3>Pronto para transformar sua rotina?</h3>
+            <a href="#contato" class="btn">Quero a minha agora</a>
+        </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer>
+        <p>© 2025 SmartBottle. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="src.js"></script>
 </body>
 
 </html>
