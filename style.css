@@ -154,16 +154,26 @@ header {
 
 /* Sobre */
 .sobre {
-    padding: 80px 0;
-    background: #112240;
-    text-align: center;
+  padding: 80px 20px;
+  background: #0b1d39; /* fundo escuro */
+  text-align: center;
+  color: white;
 }
 
-.sobre h3 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #00ffcc;
+.sobre h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #00f5d4; /* destaque no título */
 }
+
+.sobre p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+}
+
 
 /* CTA */
 .cta {
