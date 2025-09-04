@@ -28,4 +28,4 @@ Este projeto foi desenvolvido para **estudo e portfólio**, servindo como demons
 ---
 
 ## 📩 Contato
-Se quiser trocar uma ideia sobre tecnologia e desenvolvimento, me chama no [LinkedIn](https://linkedin.com/in/seu-perfil).
+Se quiser trocar uma ideia sobre tecnologia e desenvolvimento, me chama no [LinkedIn](https://www.linkedin.com/in/pedro-santos-de-almeida-317730209/).
