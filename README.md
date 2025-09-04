@@ -9,7 +9,6 @@ O objetivo deste projeto foi praticar e demonstrar habilidades em **HTML, CSS e 
 ## 🚀 Funcionalidades
 - Hero section com imagem de fundo e call-to-action.
 - Seções de **sobre**, **benefícios** e **preço**.
-- **Scroll suave** entre seções.
 - Microinteração com efeito **ripple** nos botões.
 - Navbar com efeito **shrink** ao rolar.
 
